@@ -31,8 +31,8 @@ class App extends React.Component {
       console.error(error);
     }
   }
-  async searchHandler(query = '林志玲') {
-    query = query || '林志玲';// default parameter只处理undefined的情况
+  async searchHandler(query = '汉源湖') {
+    query = query || '汉源湖';// default parameter只处理undefined的情况
     this.setState({
       isLoading: true,
     });
@@ -62,7 +62,7 @@ class App extends React.Component {
                 borderColor: 'black',
                 borderWidth: 1,
               }}
-                placeholder="林志玲"
+                placeholder="汉源湖"
                 onChangeText={text => this.setState({ text })}
               />
               <Button
