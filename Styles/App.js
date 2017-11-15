@@ -17,7 +17,7 @@ const TestImageResizeMode = ({ mode }) => {
       overflow: 'hidden',
       resizeMode: mode,
     }}
-    source={{ uri: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510640671&di=b92b670e8bfc393a334c7fa46375a9f4&imgtype=jpg&er=1&src=http%3A%2F%2Fi1.mopimg.cn%2Fimg%2Fdzh%2F2015-10%2F202%2F20151008002412502.JPEG' }}
+    source={{ uri: 'http://d.hiphotos.baidu.com/image/pic/item/500fd9f9d72a6059fe4ebff42234349b023bba86.jpg' }}
   />
 }
 
@@ -31,10 +31,10 @@ export class App extends React.Component {
     // Alert.alert(Object.keys(Image.resizeMode).join(' '));
     return (
       <ScrollView style={{
-        marginTop: 20, width: 300, height: 200,
-        borderColor: 'red',
-        borderWidth: 1,
-        borderRadius: 5,
+        // marginTop: 20, width: 300, height: 200,
+        // borderColor: 'red',
+        // borderWidth: 1,
+        // borderRadius: 5,
       }}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 20, }}>
           <TestImageResizeMode mode="contain" />
