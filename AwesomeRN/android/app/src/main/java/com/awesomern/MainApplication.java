@@ -22,7 +22,8 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(), // react-native init时自动生成的
+          new ReactPackageExample() // 我们自己的包名
       );
     }
 

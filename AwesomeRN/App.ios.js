@@ -52,12 +52,12 @@ export default class App extends Component {
       latitudeDelta: 0.1,
       longitudeDelta: 0.1,
     };
-    return <MapView
-      style={{ flex: 1 }}
-      region={region}
-      zoomEnabled={false}
-      onRegionChange={event => console.log('拖动地图', event)}
-    />
+    // return <MapView
+    //   style={{ flex: 1 }}
+    //   region={region}
+    //   zoomEnabled={false}
+    //   onRegionChange={event => console.log('拖动地图', event)}
+    // />
     return (
       <View style={styles.container}>
         <Button title="获取Swift常量"
