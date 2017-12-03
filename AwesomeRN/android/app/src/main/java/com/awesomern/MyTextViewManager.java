@@ -63,7 +63,7 @@ public class MyTextViewManager extends SimpleViewManager<TextView> {
         return map;
     }
 
-    @ReactProp(name = "text") // JS里面使用的这个名字传递prop
+    @ReactProp(name = "text") // JS里面使用这个名字传递props
     public void setText(TextView view, @Nullable String text) {
         System.out.println("in java setText method...text: " + text);
         view.setText(text);
