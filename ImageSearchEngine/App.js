@@ -55,7 +55,11 @@ class App extends React.Component {
         <ScrollView>
           <View style={{ height: 20 }} />
           <View>
-            <View style={{ flex: 1, flexDirection: 'row', }}>
+            <View style={{
+              flex: 1,
+              flexDirection: 'row',
+              justifyContent: 'center',
+            }}>
               <TextInput style={{
                 width: 300,
                 height: 40,
